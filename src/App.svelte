@@ -25,8 +25,8 @@
     </nav>
   </section>
     <div>
-      <Route path="About"> <About /> </Route>
-      <Route path="Contact"> <Contact /></Route>
+      <Route path="About" component={About}/> 
+      <Route path="Contact"component={Contact} /> 
       <Route path="/"> <Home /></Route>
     </div>
   </Router> 
